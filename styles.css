@@ -75,6 +75,7 @@ a {
 
 li {
   font-weight: bold;
+  padding: 4px;
 }
 .line {
   border-right: 4px solid black;
@@ -107,9 +108,10 @@ li {
 footer {
   height: 250px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
-  color: red;
+
 }
 .flex_all_projects {
   display: flex;
@@ -144,4 +146,55 @@ a:hover {
   padding-left: 50px;
   margin-bottom: 20px;
 }
+
+.image_collage {
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.footertext {
+  text-align: left;
+  line-height: 30px;
+}
+.underline {
+  text-decoration: underline;
+}
+.footer_padding_box {
+  margin-top: 800px;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+
+
+}
+.footer_struct_text {
+  margin-bottom: 60px;
+}
+
+ul {
+  list-style: none;
+}
+
+.adress {
+  margin-bottom: 40px;
+}
+.footer_struct_links {
+  display: flex;
+}
+.left_side_of_footer {
+  margin-right: 650px;
+}
+.right_side_of_footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+}
+.list {
+  padding: 10px;
+  margin: 0px 40px;
+}
+
 
