@@ -59,7 +59,7 @@ a {
 }
 .studio_btn {
   border: 2px solid black;
-  padding: 10px 20px;
+  padding: 10px 24px;
   font-size: 15px;
   display: inline-block;
   margin-left: 80px;
@@ -148,10 +148,8 @@ a:hover {
 }
 
 .image_collage {
-  height: 1000px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 1800px;
+
 
 }
 .footertext {
@@ -185,11 +183,13 @@ ul {
 }
 .left_side_of_footer {
   margin-right: 650px;
+
 }
 .right_side_of_footer {
   display: flex;
   align-items: flex-start;
   justify-content: center;
+
 
 }
 .list {
@@ -198,3 +198,72 @@ ul {
 }
 
 
+.blue_box_text {
+  font-family: 'Poppins', sans-serif;
+  background-color: #7C8BFF;
+  color: #FFFFFF;
+  padding: 30px 40px;
+  font-size: 30px;
+}
+/* bg: #bdc7da */
+
+
+.text_box {
+  width: 1000px;
+  grid-row: 1/3;
+  grid-column: 1/4;
+}
+.do_u {
+  width: 650px;
+  grid-row: 2/4;
+  grid-column: -4/-1;
+}
+
+.collage_head {
+  grid-template-rows: auto 2rem auto;
+  grid-template-columns: 1fr 1fr minmax(0, 50rem) 1fr;
+  padding-left: 100px;
+}
+.hero_img {
+  width: 600px;
+}
+.u_text {
+  margin-left: 600px;
+}
+.smallertext {
+  font-size: 12px;
+  margin-top: 6px;
+}
+.second_collage_box {
+  margin: 10px 0px 40px 40px;
+  padding: 20px;
+}
+.dark_blue_box_text {
+  background-color: #3B2BA8;
+  color: #FFFFFF;
+  padding: 30px 30px 30px 30px;
+  font-family: 'Poppins', sans-serif;
+  grid-row: 1/3;
+  grid-column: 2/5;
+  margin-left: 350px ;
+
+}
+.third_img {
+  width: 520px;
+  grid-row: 3/5;
+  grid-column: 3/5;
+}
+.third_collage_box {
+  margin-right: 150px;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: auto 2rem 1fr 1fr ;
+  grid-template-columns: 2fr minmax(auto, 50rem) 1fr;
+
+}
+
+.third_text {
+  margin-left: 660px;
+}
